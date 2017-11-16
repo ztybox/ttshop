@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tt-manager-web:war exploded">
+    <output-path>$PROJECT_DIR$/tt-manager/tt-manager-web/target/tt-manager-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tt-manager-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="tt-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="tt-manager-service" />
+          </element>
+          <element id="archive" name="tt-manager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="tt-manager-dao" />
+          </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.40" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.29" />
+          <element id="archive" name="tt-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="tt-manager-pojo" />
+          </element>
+          <element id="archive" name="tt-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="tt-manager-interface" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: commons-net:commons-net:3.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.3" />
+          <element id="library" level="project" name="Maven: org.json:json:20160212" />
+          <element id="archive" name="tt-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="tt-common" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tt-manager/tt-manager-web/target/tt-manager-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="tt-manager-web/web/Web" />
+    </root>
+  </artifact>
+</component>

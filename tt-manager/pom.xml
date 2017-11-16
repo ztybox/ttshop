@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tt-parent</artifactId>
+        <groupId>com.zty.ttshop</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../tt-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tt-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>tt-manager-pojo</module>
+        <module>tt-manager-dao</module>
+        <module>tt-manager-interface</module>
+        <module>tt-manager-service</module>
+        <module>tt-manager-web</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <artifactId>tt-common</artifactId>
+            <groupId>com.zty.ttshop</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
