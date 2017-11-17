@@ -41,6 +41,12 @@
             <artifactId>tt-manager-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- io工具 -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

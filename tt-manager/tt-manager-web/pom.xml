@@ -59,6 +59,12 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
         </dependency>
+        <!-- 文件上传组件 -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${commons-fileupload.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>tt-manager-web</finalName>
